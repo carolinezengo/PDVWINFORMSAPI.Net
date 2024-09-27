@@ -31,6 +31,8 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             panel1 = new Panel();
+            btnHome = new Button();
+            imageList1 = new ImageList(components);
             button5 = new Button();
             button1 = new Button();
             btnSair = new Button();
@@ -38,14 +40,15 @@
             button3 = new Button();
             button2 = new Button();
             btnCliente = new Button();
-            btnHome = new Button();
             panelLogo = new Panel();
             panel2 = new Panel();
             pictureBox2 = new PictureBox();
-            imageList1 = new ImageList(components);
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
+            panelLogo.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -65,6 +68,44 @@
             panel1.Size = new Size(141, 455);
             panel1.TabIndex = 0;
             // 
+            // btnHome
+            // 
+            btnHome.BackColor = SystemColors.Highlight;
+            btnHome.FlatAppearance.BorderColor = SystemColors.Highlight;
+            btnHome.FlatAppearance.MouseDownBackColor = SystemColors.Highlight;
+            btnHome.FlatAppearance.MouseOverBackColor = Color.White;
+            btnHome.FlatStyle = FlatStyle.Flat;
+            btnHome.ForeColor = SystemColors.InactiveBorder;
+            btnHome.ImageIndex = 0;
+            btnHome.ImageList = imageList1;
+            btnHome.Location = new Point(3, 79);
+            btnHome.Name = "btnHome";
+            btnHome.Size = new Size(130, 54);
+            btnHome.TabIndex = 1;
+            btnHome.Text = "Home";
+            btnHome.TextAlign = ContentAlignment.MiddleLeft;
+            btnHome.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnHome.UseVisualStyleBackColor = false;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "home_3010995.png");
+            imageList1.Images.SetKeyName(1, "—Pngtree—database setup icon flat style_5174668.png");
+            imageList1.Images.SetKeyName(2, "icone-de-configuracao-vector-isolado-em-fundo-transparente-design-de-logotipo-de-configuracao-700-141374498.jpg");
+            imageList1.Images.SetKeyName(3, "tecnico-em-desenvolvimento-de-sistemas-logo-258DFB6B6F-seeklogo.com.png");
+            imageList1.Images.SetKeyName(4, "emergency-exit_4009127.png");
+            imageList1.Images.SetKeyName(5, "satisfied-customer_2039048.png");
+            imageList1.Images.SetKeyName(6, "—Pngtree—database setup icon flat style_5174668.png");
+            imageList1.Images.SetKeyName(7, "—Pngtree—warehouse workers check quantity and_7579801.png");
+            imageList1.Images.SetKeyName(8, "pedido.png");
+            imageList1.Images.SetKeyName(9, "fornecedor.png");
+            imageList1.Images.SetKeyName(10, "carrinho-de-compras (1).png");
+            imageList1.Images.SetKeyName(11, "comerciante.png");
+            imageList1.Images.SetKeyName(12, "engrenagens.png");
+            // 
             // button5
             // 
             button5.BackColor = SystemColors.Highlight;
@@ -73,7 +114,7 @@
             button5.FlatAppearance.MouseOverBackColor = Color.White;
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = SystemColors.InactiveBorder;
-            button5.ImageIndex = 2;
+            button5.ImageIndex = 8;
             button5.ImageList = imageList1;
             button5.Location = new Point(0, 291);
             button5.Name = "button5";
@@ -93,7 +134,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = SystemColors.HighlightText;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.ImageIndex = 11;
+            button1.ImageIndex = 12;
             button1.ImageList = imageList1;
             button1.Location = new Point(0, 373);
             button1.Name = "button1";
@@ -133,7 +174,7 @@
             button4.FlatAppearance.MouseOverBackColor = Color.White;
             button4.FlatStyle = FlatStyle.Flat;
             button4.ForeColor = SystemColors.InactiveBorder;
-            button4.ImageIndex = 1;
+            button4.ImageIndex = 11;
             button4.ImageList = imageList1;
             button4.Location = new Point(0, 254);
             button4.Name = "button4";
@@ -152,7 +193,7 @@
             button3.FlatAppearance.MouseOverBackColor = Color.White;
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = SystemColors.InactiveBorder;
-            button3.ImageIndex = 1;
+            button3.ImageIndex = 9;
             button3.ImageList = imageList1;
             button3.Location = new Point(0, 215);
             button3.Name = "button3";
@@ -172,6 +213,8 @@
             button2.FlatAppearance.MouseOverBackColor = Color.White;
             button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = SystemColors.InactiveBorder;
+            button2.ImageIndex = 10;
+            button2.ImageList = imageList1;
             button2.Location = new Point(3, 175);
             button2.Name = "button2";
             button2.Size = new Size(130, 42);
@@ -202,28 +245,10 @@
             btnCliente.UseVisualStyleBackColor = false;
             btnCliente.Click += btnCliente_Click;
             // 
-            // btnHome
-            // 
-            btnHome.BackColor = SystemColors.Highlight;
-            btnHome.FlatAppearance.BorderColor = SystemColors.Highlight;
-            btnHome.FlatAppearance.MouseDownBackColor = SystemColors.Highlight;
-            btnHome.FlatAppearance.MouseOverBackColor = Color.White;
-            btnHome.FlatStyle = FlatStyle.Flat;
-            btnHome.ForeColor = SystemColors.InactiveBorder;
-            btnHome.ImageIndex = 0;
-            btnHome.ImageList = imageList1;
-            btnHome.Location = new Point(3, 79);
-            btnHome.Name = "btnHome";
-            btnHome.Size = new Size(130, 54);
-            btnHome.TabIndex = 1;
-            btnHome.Text = "Home";
-            btnHome.TextAlign = ContentAlignment.MiddleLeft;
-            btnHome.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnHome.UseVisualStyleBackColor = false;
-            // 
             // panelLogo
             // 
             panelLogo.BackColor = Color.SkyBlue;
+            panelLogo.Controls.Add(pictureBox1);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
             panelLogo.Name = "panelLogo";
@@ -249,23 +274,15 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // imageList1
+            // pictureBox1
             // 
-            imageList1.ColorDepth = ColorDepth.Depth32Bit;
-            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
-            imageList1.TransparentColor = Color.Transparent;
-            imageList1.Images.SetKeyName(0, "home_3010995.png");
-            imageList1.Images.SetKeyName(1, "usuarios-alt.png");
-            imageList1.Images.SetKeyName(2, "carrinho-de-compras.png");
-            imageList1.Images.SetKeyName(3, "do-utilizador.png");
-            imageList1.Images.SetKeyName(4, "definicoes.png");
-            imageList1.Images.SetKeyName(5, "casa.png");
-            imageList1.Images.SetKeyName(6, "—Pngtree—database setup icon flat style_5174668.png");
-            imageList1.Images.SetKeyName(7, "icone-de-configuracao-vector-isolado-em-fundo-transparente-design-de-logotipo-de-configuracao-700-141374498.jpg");
-            imageList1.Images.SetKeyName(8, "tecnico-em-desenvolvimento-de-sistemas-logo-258DFB6B6F-seeklogo.com.png");
-            imageList1.Images.SetKeyName(9, "emergency-exit_4009127.png");
-            imageList1.Images.SetKeyName(10, "satisfied-customer_2039048.png");
-            imageList1.Images.SetKeyName(11, "—Pngtree—database setup icon flat style_5174668.png");
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 7);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(98, 66);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // FrmMenu
             // 
@@ -277,8 +294,10 @@
             Name = "FrmMenu";
             Text = "Menu Pedidos";
             panel1.ResumeLayout(false);
+            panelLogo.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -297,5 +316,6 @@
         private Button button5;
         private PictureBox pictureBox2;
         private ImageList imageList1;
+        private PictureBox pictureBox1;
     }
 }

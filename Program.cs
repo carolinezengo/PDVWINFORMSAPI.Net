@@ -15,7 +15,7 @@ namespace FORMSAPI
            
             ApplicationConfiguration.Initialize();
            
-            Application.Run(new FrmBuscarCliente());
+            Application.Run(new FrmMenu());
         }
     }
 }

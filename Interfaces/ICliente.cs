@@ -12,9 +12,9 @@ namespace FORMSAPI.Interfaces
    public interface ICliente
     {
         Task <List<ClienteEntindade>>Todos();
-         ClienteEntindade BuscarPorId(int id);
-        void Incluir(ClienteEntindade cliente);
-        void Atualizar(ClienteEntindade cliente);
-        void Apagar(ClienteEntindade cliente);
+        Task<ClienteEntindade>  BuscarPorId(int id);
+        Task<bool> Incluir(ClienteEntindade cliente);
+        Task<bool> Atualizar(ClienteEntindade cliente, int codigo);
+        Task<bool> Apagar(int codigo);
     }
 }

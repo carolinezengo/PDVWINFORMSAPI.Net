@@ -35,3 +35,10 @@ C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\refint\FORMS
 C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.pdb
 C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.genruntimeconfig.cache
 C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\ref\FORMSAPI.dll
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.FrmCadastroCliente.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.FrmCadastroFornecedor.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.FrmCadastroProduto.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.FrmMenu.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.FrmPDV.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.Properties.Resources.resources
+C:\Users\PC\source\repos\FORMSAPI\FORMSAPI\obj\Debug\net8.0-windows\FORMSAPI.sourcelink.json

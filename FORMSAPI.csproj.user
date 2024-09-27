@@ -4,5 +4,20 @@
     <Compile Update="FrmBuscarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmCadastroFornecedor .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
